@@ -1,11 +1,10 @@
 package subtractionTest;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotEquals;
+import static org.testng.Assert.assertTrue;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 import subtraction.CalculateSubtraction;
 
@@ -25,5 +24,24 @@ public class CalculateSubtractionTest {
 		
 		double result = sub.subtract(9.9,8.9);
 		assertNotEquals(result, 1.9);
+	}
+	
+	@Test
+	public void subtractThree() {
+		
+		double value = sub.subtract(40,50);
+		assertEquals(value, -10);
+	}
+	
+	@Test
+	public void subtractFour() {
+		
+		double result = sub.subtract(9.9,8.9);
+		assertNotEquals(result, 1.9);
+	}
+	
+	@Test
+	public void sampleFive() {
+		assertTrue(true);
 	}
 }

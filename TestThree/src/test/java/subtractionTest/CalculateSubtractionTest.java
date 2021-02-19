@@ -12,6 +12,8 @@ public class CalculateSubtractionTest {
 
 	public CalculateSubtraction sub = new CalculateSubtraction();
 	
+	// Basic test =======================
+	
 	@Test
 	public void subtractOne() {
 		

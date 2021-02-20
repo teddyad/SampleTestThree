@@ -52,7 +52,7 @@ public class CalculateSubtractionTest {
 	public void subtractSix() {
 		
 		double value = sub.subtract(40,50);
-		assertEquals(value, -11);
+		assertEquals(value, -10);
 	}
 	
 	@Test

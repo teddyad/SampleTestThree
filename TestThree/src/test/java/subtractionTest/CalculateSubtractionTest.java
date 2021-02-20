@@ -33,7 +33,7 @@ public class CalculateSubtractionTest {
 	public void subtractThree() {
 		
 		double value = sub.subtract(40,50);
-		assertEquals(value, -10);
+		assertEquals(value, -20);
 	}
 	
 	@Test
